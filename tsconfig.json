@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es2020",                                 
+    "module": "AMD",                               
+    "esModuleInterop": true,                            
+    "forceConsistentCasingInFileNames": true,           
+    "strict": true,                                     
+    "skipLibCheck": true,
+    "outDir": "dist",
+    "declaration": true,
+    // "outFile": "build/build.js",
+    "lib": ["es2020", "dom"]
+  },
+  "include": [
+    "src/*"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "discord-snowflake-id",
+  "version": "1.0.1",
+  "description": "",
+  "main": "build/bundle.js",
+  "types": "build/build.d.ts",
+  "files": ["build"],
+  "scripts": {
+    "test": "npm run build && node build/bundle.js",
+    "build": "rollup dist/index.js --format cjs --file build/build.js"
+  },
+  "keywords": ["discord", "snowflake-id", "snowflake", "discord-api"],
+  "author": "Koll Potato",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.9.4",
+    "rollup": "^3.7.5"
+  }
+}
