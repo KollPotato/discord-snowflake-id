@@ -1,12 +1,11 @@
 {
   "name": "discord-snowflake-id",
-  "version": "1.0.1",
-  "description": "",
-  "main": "build/bundle.js",
-  "types": "build/build.d.ts",
+  "version": "1.0.2",
+  "description": "Library for parsing Discord snowflake IDs",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
   "files": ["build"],
   "scripts": {
-    "test": "npm run build && node build/bundle.js",
     "build": "rollup dist/index.js --format cjs --file build/build.js"
   },
   "keywords": ["discord", "snowflake-id", "snowflake", "discord-api"],
@@ -14,7 +13,6 @@
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
-    "typescript": "^4.9.4",
-    "rollup": "^3.7.5"
+    "typescript": "^4.9.4"
   }
 }

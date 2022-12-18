@@ -1,14 +1,13 @@
 {
   "compilerOptions": {
     "target": "es2020",                                 
-    "module": "AMD",                               
+    "module": "CommonJS",                               
     "esModuleInterop": true,                            
     "forceConsistentCasingInFileNames": true,           
     "strict": true,                                     
     "skipLibCheck": true,
-    "outDir": "dist",
     "declaration": true,
-    // "outFile": "build/build.js",
+    "outDir": "build",
     "lib": ["es2020", "dom"]
   },
   "include": [
